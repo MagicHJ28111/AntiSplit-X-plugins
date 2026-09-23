@@ -1,0 +1,15 @@
+{
+  "id": "tencent-killer",
+  "name": "Tencent Legu Killer",
+  "author": "AntiSplit-X Team",
+  "description": "Removes Tencent Legu packer.",
+  "version": 1,
+  "type": "patch",
+  "icon": "🐧",
+
+  "native_rules": [
+    { "action": "remove_lib", "pattern": "libshella*.so" },
+    { "action": "remove_lib", "pattern": "libshellx*.so" },
+    { "action": "remove_lib", "pattern": "libtx_gu*.so" }
+  ]
+}
