@@ -1,0 +1,33 @@
+{
+  "id": "pairip-killer",
+  "name": "PairIP Killer",
+  "author": "AntiSplit-X Team",
+  "description": "Removes Google PairIP anti-piracy completely.",
+  "version": 1,
+  "type": "patch",
+  "icon": "🔥",
+
+  "manifest_rules": [
+    { "action": "remove_permission", "value": "com.android.vending.CHECK_LICENSE" },
+    { "action": "remove_provider",   "value": "com.pairip.licensecheck.LicenseContentProvider" },
+    { "action": "remove_activity",   "value": "com.pairip.licensecheck.LicenseActivity" }
+  ],
+
+  "native_rules": [
+    { "action": "remove_lib", "pattern": "libpairip*.so" }
+  ],
+
+  "dex_rules": [
+    {
+      "action": "stub_methods",
+      "class": "Lcom/pairip/licensecheck/LicenseClient;",
+      "methods": [
+        "checkLicense",
+        "initializeLicenseCheck",
+        "handleError",
+        "startErrorDialogActivity",
+        "startPaywallActivity"
+      ]
+    }
+  ]
+}
