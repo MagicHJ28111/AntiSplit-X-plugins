@@ -1,0 +1,19 @@
+{
+  "id": "native-cleaner",
+  "name": "Native Cleaner",
+  "author": "AntiSplit-X Team",
+  "description": "Removes all known protector libraries.",
+  "version": 1,
+  "type": "patch",
+  "icon": "🧹",
+
+  "native_rules": [
+    { "action": "remove_lib", "pattern": "libpairip*.so" },
+    { "action": "remove_lib", "pattern": "libjiagu*.so" },
+    { "action": "remove_lib", "pattern": "libshella*.so" },
+    { "action": "remove_lib", "pattern": "libtx_gu*.so" },
+    { "action": "remove_lib", "pattern": "libdexprotector*.so" },
+    { "action": "remove_lib", "pattern": "libarm_protect*.so" },
+    { "action": "remove_lib", "pattern": "libarmor*.so" }
+  ]
+}
