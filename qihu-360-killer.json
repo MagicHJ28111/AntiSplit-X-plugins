@@ -1,0 +1,14 @@
+{
+  "id": "qihu-360-killer",
+  "name": "360 Jiagu Killer",
+  "author": "AntiSplit-X Team",
+  "description": "Removes Qihoo 360 hardening libs.",
+  "version": 1,
+  "type": "patch",
+  "icon": "🛡️",
+
+  "native_rules": [
+    { "action": "remove_lib", "pattern": "libjiagu*.so" },
+    { "action": "remove_lib", "pattern": "libqihoo*.so" }
+  ]
+}
