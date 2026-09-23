@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "lastUpdate": "2025-11-22",
+  "plugins": [
+    {
+      "id": "pairip-killer",
+      "name": "PairIP Killer",
+      "author": "AntiSplit-X Team",
+      "description": "Removes Google PairIP anti-piracy. Stubs LicenseClient methods, deletes libpairip*.so, removes manifest entries.",
+      "icon": "🔥",
+      "category": "google",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/ТВО_ІМЯ/AntiSplit-X-plugins/main/plugins/pairip-killer.json"
+    },
+    {
+      "id": "lvl-killer",
+      "name": "LVL Killer",
+      "author": "AntiSplit-X Team",
+      "description": "Bypasses old Google License Verification Library (LVL) used in legacy apps.",
+      "icon": "🔓",
+      "category": "google",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/ТВО_ІМЯ/AntiSplit-X-plugins/main/plugins/lvl-killer.json"
+    },
+    {
+      "id": "qihu-360-killer",
+      "name": "360 Jiagu Killer",
+      "author": "AntiSplit-X Team",
+      "description": "Removes Qihoo 360 hardening (libjiagu.so) used in Chinese apps.",
+      "icon": "🛡️",
+      "category": "chinese",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/ТВО_ІМЯ/AntiSplit-X-plugins/main/plugins/qihu-360-killer.json"
+    },
+    {
+      "id": "tencent-killer",
+      "name": "Tencent Legu Killer",
+      "author": "AntiSplit-X Team",
+      "description": "Removes Tencent Legu packer (libshella.so, libtx_gu.so).",
+      "icon": "🐧",
+      "category": "chinese",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/ТВО_ІМЯ/AntiSplit-X-plugins/main/plugins/tencent-killer.json"
+    },
+    {
+      "id": "native-cleaner",
+      "name": "Native Cleaner",
+      "author": "AntiSplit-X Team",
+      "description": "Removes all known protector .so libraries from APK. Safe general-purpose cleanup.",
+      "icon": "🧹",
+      "category": "utility",
+      "version": 1,
+      "url": "https://raw.githubusercontent.com/ТВО_ІМЯ/AntiSplit-X-plugins/main/plugins/native-cleaner.json"
+    }
+  ]
+}
