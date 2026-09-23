@@ -10,7 +10,7 @@
       "icon": "🔥",
       "category": "google",
       "version": 1,
-      "url": "https://raw.githubusercontent.com/MagicHJ28111/AntiSplit-X-plugins/main/plugins/pairip-killer.json"
+      "url": "https://raw.githubusercontent.com/MagicHJ28111/AntiSplit-X-plugins/main/pairip-killer.json"
     },
     {
       "id": "lvl-killer",
@@ -20,7 +20,7 @@
       "icon": "🔓",
       "category": "google",
       "version": 1,
-      "url": "https://raw.githubusercontent.com/ТВО_ІМЯ/AntiSplit-X-plugins/main/plugins/lvl-killer.json"
+      "url": "https://raw.githubusercontent.com/MagicHJ28111/AntiSplit-X-plugins/main/lvl-killer.json"
     },
     {
       "id": "qihu-360-killer",
@@ -30,7 +30,7 @@
       "icon": "🛡️",
       "category": "chinese",
       "version": 1,
-      "url": "https://raw.githubusercontent.com/ТВО_ІМЯ/AntiSplit-X-plugins/main/plugins/qihu-360-killer.json"
+      "url": "https://raw.githubusercontent.com/MagicHJ28111/AntiSplit-X-plugins/main/qihu-360-killer.json"
     },
     {
       "id": "tencent-killer",
@@ -40,7 +40,7 @@
       "icon": "🐧",
       "category": "chinese",
       "version": 1,
-      "url": "https://raw.githubusercontent.com/ТВО_ІМЯ/AntiSplit-X-plugins/main/plugins/tencent-killer.json"
+      "url": "https://raw.githubusercontent.com/MagicHJ28111/AntiSplit-X-plugins/main/tencent-killer.json"
     },
     {
       "id": "native-cleaner",
@@ -50,7 +50,7 @@
       "icon": "🧹",
       "category": "utility",
       "version": 1,
-      "url": "https://raw.githubusercontent.com/ТВО_ІМЯ/AntiSplit-X-plugins/main/plugins/native-cleaner.json"
+      "url": "https://raw.githubusercontent.com/MagicHJ28111/AntiSplit-X-plugins/main/native-cleaner.json"
     }
   ]
 }
